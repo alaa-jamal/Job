@@ -1,0 +1,535 @@
+body{
+  font-family: 'Cairo', sans-serif;
+  
+}
+.header{
+  position: relative;
+  line-height: 30px;
+}
+.header span{
+  color:#179E5C;
+}
+
+.header h1{
+  font-style: bold;
+  padding-top:15px;
+}
+
+.header img{
+  width: 270px;
+  position: absolute;
+  top: 70px;
+  left: 240px;
+}
+
+.heroImage img{
+  width:50%;
+}
+
+.heroContent{
+  Padding:5px;
+  height:250px;
+  border-radius:10px;
+  background-image: linear-gradient(#119C97,#094E4C);
+}
+.heroContent p{
+  color:white;
+  font-size:20px;
+  text-align: center;
+
+}
+
+.para{
+  position:relative;
+ 
+}
+
+.para p{
+  text-align: center;
+  font-style: bold;
+  font-size: 30px;
+}
+
+.para img{
+  position: absolute;
+  top: 10px;
+  left: 450px;
+}
+
+.content{
+  background-color:#FBFBFB;
+}
+.content img{
+  width:400px;
+}
+
+
+
+.heroSection .icon{
+  width:80px;
+}
+
+.content-right{
+  display: flex;
+}
+
+.box1{
+
+  position: relative;
+  height:16vh;
+  width:400px;
+  border:2px solid #119C97;
+  border-radius: 5px;
+ 
+ 
+}
+
+.box1 p{
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  position:relative;
+}
+
+.backgroundBox{
+  height:14vh;
+  background-color: #ECFFFE;
+}
+
+.box1::before{
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 41px;
+  height: 2px;
+  background-color: #57B9B6;
+  width: 10px;
+}
+
+.box2{
+  width:100px;
+}
+
+.box2 img{
+  width:100px;
+}
+
+.content-right{
+  display: flex;
+  flex-direction: column;
+  gap:35px;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.projectSucess{
+  position: relative;
+  margin-top: 80px;
+}
+.projectSucess h3{
+  text-align: center;
+  
+
+}
+.projectSucess img{
+  position:absolute;
+  top: -7px;
+  left: 420px;
+  width:500px;
+
+}
+.projectContent{
+  position: relative;
+}
+.projectPara{
+  position: absolute;
+  font-size: 20px;
+  top: 94px;
+  left:143px;
+  color:#FFFFFF;
+}
+.projectPara span{
+  color:#F6FF00; 
+}
+
+.contentBottom span{
+  border:none;
+  padding:2px;
+  border-radius: 20px;
+  background-color: #179E5C;
+  color:#FFFFFF;
+
+}
+
+.contentBottomPara span{
+  color:#179E5C;
+}
+.sucessDep{
+  height:40vh;
+    background-color: #054150;;
+}
+.sucessDep h5{
+  color:#F6FF00;
+  text-align: center;
+}
+.sucessDep p{
+  color:#FFFFFF;
+  text-align: center;
+}
+
+.spcilization p{
+  text-align: center;
+  
+}
+
+.subscribe{
+  background-color: #FBFBFB;
+}
+
+.subscribe .subscribe-left img{
+  width:200px;
+}
+
+.subscribe .subscribe-right .subscribe-right-top h3{
+  color:#119C97;
+  text-decoration: underline;
+}
+
+.dot{
+  
+    height: 10px;
+    width: 10px;
+    
+    background-color: #119C97;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ul{
+  direction: rtl;
+  color:#119C97;
+}
+
+ul p{
+  color:#111;
+}
+
+.subscribe-para{
+  
+  margin: auto;
+  max-width: 500px;
+  line-height: 34px;
+  background-color: #FBFBFB;
+}
+
+.subscribe-para p{
+  text-align: center;
+  color:#119C97;
+}
+
+.subscribe-para span{
+  color:#111;
+}
+
+.subscribe-object{
+  display: flex;
+  justify-content: space-around;
+  background-color: #FBFBFB;
+}
+.subscribeContent{
+  Padding:5px;
+  height:150px;
+  width:40%;
+  border-radius:10px;
+  background-image: linear-gradient(#119C97,#094E4C);
+  text-align:right;
+}
+
+.subscribeContent span{
+  color:#FFFFFF;
+  text-decoration: underline;
+
+}
+
+.subscribeImage img{
+  width:60%;
+}
+
+.form-section-title{
+  background-color: #054150;
+  border:none;
+  border-radius: 5px;
+  position: relative;
+ 
+  
+
+}
+
+.form-section .form-section-title h3{
+  color:#FFFFFF;
+  text-align: center;
+  padding: 80px;
+  
+
+}
+
+.form-section-title img{
+  position: absolute;
+  top: 34px;
+  left: 230px;
+}
+
+.form-right input{
+  text-align: right;
+
+}
+
+.form-right button{
+  background-color:#179E5C ;
+  border: none;
+  color:#FFFFFF;
+}
+
+.form-left .message{
+  text-align: right;
+}
+
+.concract{
+  background-color: #054150;
+}
+
+.concract h3{
+  color:#F6FF00;
+  text-decoration: underline;
+  text-align:center;
+}
+.concract-condition{
+  position: relative;
+}
+
+.concract-condition ul{
+  direction: rtl;
+  color:#F6FF00;
+}
+
+.concract-condition ul p{
+  color:#FFFFFF;
+}
+
+.concract-condition img{
+  position: absolute;
+  top:69px;
+  left:10px;
+}
+
+.footer span{
+  color:#179E5C;
+}
+
+.footer p{
+  text-decoration: underline;
+}
+
+
+
+
+/* ******************************************** Media Query ******************************************************/
+
+/* Small  Screen */
+
+@media (max-width : 767px) {
+
+  .header h1{
+    font-size: 21px;
+  }
+
+  .header img {
+    width: 187px;
+    top: 44px;
+    left: 66px;
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.para img {
+  left: 153px;
+}
+
+.content-img {
+  display: none;
+}
+.projectSucess img {
+  top: -1px;
+  left: 113px;
+  width: 451px;
+}
+
+
+
+.projectContent-img{
+    width: 100%;
+    height:299px;
+}
+
+.projectPara {
+ 
+  font-size: 2px;
+  top: 25px;
+  left: 62px;
+
+}
+
+.sucessDep {
+  height: 36vh;
+}
+
+.subscribeContent {
+  height: 213px;
+ 
+}
+
+.form-section-title img {
+  top: 61px;
+  left: 13px;
+  width: 471px;
+}
+
+.concract-condition img {
+  top: 124px;
+  left: 124px;
+  width: 97px;
+}
+
+.concract{
+  position: relative;
+}
+.concract-img{
+    position: absolute;
+    width: 34px;
+    top: 39px;
+    left: 66px;
+}
+
+
+}
+
+/* Meduim screen */
+
+@media (min-width : 767px) and (max-width: 991px) {
+
+  .header h1{
+
+    font-size: 20px;
+
+  }
+
+  .header img {
+    width: 166px;
+    position: absolute;
+    top: 45px;
+    left: 195px;
+}
+
+.heroImage{
+  width: 360px;
+}
+
+.heroContent{
+  width: 359px;
+}
+
+
+
+.para img {
+  position: absolute;
+  top: 10px;
+  left: 240px;
+}
+
+
+.content .content-img {
+  width: 266px;
+
+}
+.box1 {
+  height: 24vh;
+}
+
+.box2 img {
+  margin-top: 13px;
+}
+
+.box1::before {
+  top: 59px;
+}
+
+.projectSucess img {
+
+  left: 131px;
+  
+}
+
+
+.projectContent-img {
+  width: 715px;
+}
+
+.projectPara {
+  font-size: 12px;
+  top: 11px;
+  left: 100px;
+ 
+}
+.sucessDep {
+  height: 37vh;
+  
+}
+
+.form-section-title img {
+  position: absolute;
+  top: 47px;
+  left: 59px;
+  width: 553px;
+}
+
+.concract-img {
+  width:70px;
+}
+
+.concract-condition img {
+  top: 125px;
+  left: 204px;
+  width: 87px;
+}
+
+.content .content-img {
+  width: 266px;
+  margin-top: 117px;
+}
+.backgroundBox {
+  height: 21vh;
+}
+
+
+ 
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
